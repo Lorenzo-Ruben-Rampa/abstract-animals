@@ -1,10 +1,12 @@
 import interfaces.Movement;
-public class Cane extends Animale implements Movement {
+import interfaces.INuotante;
+// public class Cane extends Animale implements Movement {
+public class Cane extends Animale implements INuotante {
 
-    @Override
-    public void vola() {
-        System.out.println("Il cane non vola");
-    }
+    // @Override
+    // public void vola() {
+    //     System.out.println("Il cane non vola");
+    // }
 
     @Override
     public void nuota() {

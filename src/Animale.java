@@ -1,4 +1,6 @@
 import interfaces.Movement;
+import interfaces.INuotante;
+import interfaces.IVolante;
 public abstract class Animale implements Movement {
 
     public void vola() {
